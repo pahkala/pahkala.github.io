@@ -1,2 +1,0 @@
-echo "Hello World" > index.html
-git add --all
