@@ -1,4 +1,4 @@
-//CDequeue.h
+//Dequeue.h
 #ifndef DEQUEUE_H
 #define DEQUEUE_H
 
@@ -19,7 +19,7 @@ public:
         rear = nullptr;
     }
     ~DQue(){};
-    //^constructor & destructor
+
 
     void push_front(int value){
         auto *new_node = new DQNode();
@@ -85,11 +85,14 @@ public:
     } // end of empty
 
     void show(){
-        DQNode *tmp = front;
-        while (tmp != nullptr){
-            std::cout << tmp -> data << std::endl;
-            tmp = tmp -> next;
-        }
+        if (not empty()) {
+            DQNode *tmp = front;
+            while (tmp != nullptr) {
+                std::cout << tmp->data << std::endl;
+                tmp = tmp->next;
+            }
+        } else
+            std::cout << "Empty Stack" << std::endl;
     }
 };
 #endif
