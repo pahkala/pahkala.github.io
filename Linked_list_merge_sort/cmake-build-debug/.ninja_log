@@ -1,0 +1,5 @@
+# ninja log v5
+20	1514	1709855503102947891	CMakeFiles/D_L_List_Project.dir/dll.cpp.o	876fd2509075a42f
+0	128	1709856955931460109	build.ninja	ffcfda55a59fd1e6
+20	1345	1709856774699703367	CMakeFiles/D_L_List_Project.dir/main.cpp.o	7f18035665c25a0e
+1347	1435	1709856774818584261	D_L_List_Project	3d78f7b68c7f6d7f

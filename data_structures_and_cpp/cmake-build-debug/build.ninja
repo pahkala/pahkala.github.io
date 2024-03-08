@@ -51,13 +51,7 @@ build cmake_object_order_depends_target_data_structures_and_cpp: phony || CMakeF
 
 build CMakeFiles/data_structures_and_cpp.dir/main.cpp.o: CXX_COMPILER__data_structures_and_cpp_unscanned_Debug /Users/jpahkala/Documents/GitHub/pahkala.github.io/data_structures_and_cpp/main.cpp || cmake_object_order_depends_target_data_structures_and_cpp
   DEP_FILE = CMakeFiles/data_structures_and_cpp.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/data_structures_and_cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/data_structures_and_cpp.dir
-
-build CMakeFiles/data_structures_and_cpp.dir/recursion.cpp.o: CXX_COMPILER__data_structures_and_cpp_unscanned_Debug /Users/jpahkala/Documents/GitHub/pahkala.github.io/data_structures_and_cpp/recursion.cpp || cmake_object_order_depends_target_data_structures_and_cpp
-  DEP_FILE = CMakeFiles/data_structures_and_cpp.dir/recursion.cpp.o.d
-  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/data_structures_and_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/data_structures_and_cpp.dir
 
@@ -69,8 +63,8 @@ build CMakeFiles/data_structures_and_cpp.dir/recursion.cpp.o: CXX_COMPILER__data
 #############################################
 # Link the executable data_structures_and_cpp
 
-build data_structures_and_cpp: CXX_EXECUTABLE_LINKER__data_structures_and_cpp_Debug CMakeFiles/data_structures_and_cpp.dir/main.cpp.o CMakeFiles/data_structures_and_cpp.dir/recursion.cpp.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
+build data_structures_and_cpp: CXX_EXECUTABLE_LINKER__data_structures_and_cpp_Debug CMakeFiles/data_structures_and_cpp.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3
   OBJECT_DIR = CMakeFiles/data_structures_and_cpp.dir
   POST_BUILD = :
   PRE_LINK = :

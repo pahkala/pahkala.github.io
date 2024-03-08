@@ -1,0 +1,3 @@
+/Users/jpahkala/Documents/GitHub/pahkala.github.io/TextbookP1.cpp/cmake-build-debug/CMakeFiles/TextbookP1_cpp.dir
+/Users/jpahkala/Documents/GitHub/pahkala.github.io/TextbookP1.cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jpahkala/Documents/GitHub/pahkala.github.io/TextbookP1.cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
