@@ -1,3 +1,0 @@
-/Users/jpahkala/Documents/GitHub/pahkala.github.io/data_structures_and_cpp/cmake-build-debug/CMakeFiles/data_structures_and_cpp.dir
-/Users/jpahkala/Documents/GitHub/pahkala.github.io/data_structures_and_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jpahkala/Documents/GitHub/pahkala.github.io/data_structures_and_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
