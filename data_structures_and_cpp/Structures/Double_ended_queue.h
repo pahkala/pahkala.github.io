@@ -1,6 +1,6 @@
-//Dequeue.h
-#ifndef DEQUEUE_H
-#define DEQUEUE_H
+//Double_ended_queue.h
+#ifndef DOUBLE_ENDED_QUEUE_H
+#define DOUBLE_ENDED_QUEUE_H
 
 struct DQNode {
     int data;

@@ -92,7 +92,8 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -122,6 +123,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "DLL_w_merge.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "QuickSortRecur.h",
 			"sourceGroupIndex" : 1
 		}
 	],

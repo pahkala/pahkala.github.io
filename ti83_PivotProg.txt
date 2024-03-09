@@ -1,0 +1,36 @@
+PROGRAM: PIVOT
+[A]->[B]                                [A] & [B] from the matrix menu
+Lbl 1
+
+Pause [A]
+Disp "1 PIVOT"
+Disp "2 REVERT"
+Disp "3 QUIT"
+Input V
+
+If V=3   
+Then
+Stop
+End
+
+If V=2
+Then [B] -> [A]
+End
+
+If V=1
+Then
+Input ("ROW ", R)
+Input ("COLUMN ", C)
+*row(1/[A](R,C), [A], R) -> [A]
+dim([A])->|_D                           |_ from the list menu
+For(J, 1, |_D(1))
+if J != R
+*row+(-1*[A](J,C),[A], R, J) -> [A]
+End
+
+End
+
+Pause [A]>Frac                          >Frac from math menu
+Goto 1
+
+     
